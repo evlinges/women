@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Каталог — Zhinochyi Style</title>
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <a href="index.html"><img src="styles/img/flower_1.jpg" alt="Zhinochyi Style Logo"></a>
+      </div>
+      <div class="burger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="catalog.html" class="active">Каталог</a></li>
+          <li><a href="#cart">Кошик</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="catalog" class="catalog">
+  <div class="container">
+    <h2>Каталог товарів</h2>
+    <div class="catalog-grid">
+      <div class="product-card">
+       <img src="styles/img/klipartz.com (2).png" alt="Сукня 1">
+        <h3>Сукня «Романтика»</h3>
+        <p class="price">₴1 200</p>
+        <button class="btn">Додати в кошик</button>
+      </div>
+      <div class="product-card">
+       <img src="styles/img/klipartz.com (2).png" alt="Сукня 2">
+        <h3>Сукня «Класика»</h3>
+        <p class="price">₴1 500</p>
+        <button class="btn">Додати в кошик</button>
+      </div>
+      <div class="product-card">
+        <img src="styles/img/klipartz.com (2).png" alt="Сукня 3">
+        <h3>Сукня «Вечірня мрія»</h3>
+        <p class="price">₴2 000</p>
+        <button class="btn">Додати в кошик</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer id="contacts">
+    <div class="container">
+      <p>&copy; 2025 Zhinochyi Style. Всі права захищено.</p>
+      <div class="social-icons">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

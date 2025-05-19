@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кошик | Zhinochyi Style</title>
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/main.css" />
+
+  </head>
+<body>
+  <header class="container nav">
+    <div class="logo">
+      <a href="index.html"><img src="styles/img/flower_1.jpg" alt="Zhinochyi Style Logo" height="70"></a>
+    </div>
+  </header>
+
+  <section class="cart-container">
+    <h1 class="cart-title">Ваш кошик</h1>
+    <div id="cart-items"></div>
+    <div class="cart-total" id="cart-total">Загальна сума: 0 грн</div>
+    <a href="#" class="checkout-btn">Оформити замовлення</a>
+  </section>
+  <section class="cart-section">
+  <div class="container">
+    <h2>Ваш кошик</h2>
+    <ul id="cart-items"></ul>
+    <p id="total-price"></p>
+    <button onclick="clearCart()">Очистити кошик</button>
+  </div>
+</section>
